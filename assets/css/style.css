@@ -152,19 +152,12 @@ footer {
     @media screen and (max-width: 640px) {
         nav {
             position: static;
+            width: 70%; 
         }
 
-       .One {
-           
-       }
-
-       .Two {
-
-       }
-
-       .Three {
-
-       }
+        section {
+            margin: 20px 70px 140px 100px;
+        }
 
        .PicOne {
            margin: 0px 0px 20px 120px;
