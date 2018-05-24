@@ -157,4 +157,33 @@ footer {
        .One {
            
        }
+
+       .Two {
+
+       }
+
+       .Three {
+
+       }
+
+       .PicOne {
+           margin: 0px 0px 20px 120px;
+       }
+
+       .PicTwo {
+           margin: 0px 0px 20px 120px;
+       }
+
+       .PicThree {
+           margin: 0px 0px 0px 120px;
+       }
+
+       .PicFour {
+           margin: 20px 20px 20px 120px;
+       }
+
+       .PicFive {
+           margin: 0px 20px 30px 120px;
+       }
+
     }
