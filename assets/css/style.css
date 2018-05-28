@@ -149,7 +149,7 @@ footer {
 @media screen and (max-width: 768px) {
     }
 
-    @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
         nav {
             position: static;
             width: 70%; 
@@ -180,3 +180,33 @@ footer {
        }
 
     }
+
+@media screen and (max-width: 500px) {
+
+        nav {
+            position: static;
+            width:65%;
+            
+        }
+
+       .PicOne {
+           margin: 0 0 20px 65px;
+       }
+
+       .PicTwo {
+           margin: 0 0 20px 65px;
+       }
+
+       .PicThree {
+           margin: 0 0 20px 65px;
+       }
+
+       .PicFour {
+           margin: 0 0 20px 65px;
+       }
+
+       .PicFive {
+           margin: 0 0 20px 65px;
+       }
+}       
+
