@@ -147,7 +147,8 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    }
+    
+}
 
 @media screen and (max-width: 640px) {
         nav {
@@ -208,4 +209,4 @@ footer {
        .PicFive {
            margin: 0 0 20px 65px;
        }
-    };
+}
