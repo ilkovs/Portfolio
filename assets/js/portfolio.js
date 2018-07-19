@@ -10,7 +10,9 @@ var config = {
 
 firebase.initializeApp(config);
 
-$(".submit").on("click", function (event) {
+var database = firebase.database();
+
+$(".Submit").on("click", function (event) {
 
     event.preventDefault();
     var contactName = $("#name").val().trim();
