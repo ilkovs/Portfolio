@@ -19,7 +19,7 @@ $(".Submit").on("click", function (event) {
     var contactEmail = $("#email").val().trim();
     var contactMessage = $("#msg").val().trim();
 
-    console.log(contactName);
+    alert("Thank you for getting in touch!");
 
     var newContact = {
         name: contactName,
