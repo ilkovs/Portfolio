@@ -9,19 +9,23 @@ body {
 nav {
     background-color: #ffffff;
     padding: 10px 175px 20px 128px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 1000px;
     margin-left: -20px;
-}  
+}
+
+#about {
+    margin-left: 650px;
+}
 
 a {
     text-decoration: none;
 }
 
-.N1 {
+#N1 {
     background-color: #4aaaa5;
     padding: 10px 10px 21px 10px;
-    margin: 0;
+    margin-left: 22px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -247,10 +251,14 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+
     section {
         width: 75%;
     }
 
+    #about {
+        margin-left: 400px;
+    }
 
     .PicThree {
         margin: 29px;
@@ -266,6 +274,11 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+
+    #about {
+        margin-left: 250px;
+    }
+
     #msg {
         width: 400px;
     }
@@ -332,7 +345,16 @@ footer {
         nav {
             position: static;
             width:65%;
+            font-size: 14px;
             
+        }
+
+        #N1 {
+            margin-left: 5px;
+        }
+
+        #about {
+            margin-left: 10px;
         }
 
        .PicOne {
@@ -353,6 +375,10 @@ footer {
 
        .PicFive {
            margin: 0 0 20px 65px;
+       }
+
+       #msg {
+           width: 300px;
        }
 
     }}
