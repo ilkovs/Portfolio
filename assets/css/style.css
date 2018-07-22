@@ -14,9 +14,6 @@ nav {
     margin-left: -20px;
 }
 
-#about {
-    margin-left: 650px;
-}
 
 a {
     text-decoration: none;
@@ -27,6 +24,20 @@ a {
     padding: 10px 10px 21px 10px;
     margin-left: 22px;
     color: #ffffff;
+    font-size: 20px;
+}
+
+#about {
+    margin-left: 610px;
+    font-size: 20px;
+}
+
+
+#portfolio {
+    font-size: 20px;
+}
+
+#contact {
     font-size: 20px;
 }
 
@@ -257,7 +268,7 @@ footer {
     }
 
     #about {
-        margin-left: 400px;
+        margin-left: 360px;
     }
 
     .PicThree {
@@ -276,7 +287,7 @@ footer {
 @media screen and (max-width: 768px) {
 
     #about {
-        margin-left: 250px;
+        margin-left: 205px;
     }
 
     #msg {
@@ -312,6 +323,14 @@ footer {
 
         section {
             margin: 20px 70px 140px 100px;
+        }
+
+        #N1 {
+            margin-left: -5px;
+        }
+
+        #about {
+            margin-left: 80px;
         }
 
        .PicOne {
@@ -350,11 +369,20 @@ footer {
         }
 
         #N1 {
-            margin-left: 5px;
+            margin-left: -5px;
         }
 
         #about {
-            margin-left: 10px;
+            margin-left: 15px;
+            font-size: 15px
+        }
+
+        #portfolio {
+            font-size: 15px;
+        }
+
+        #contact {
+            font-size: 15px;
         }
 
        .PicOne {
