@@ -264,11 +264,11 @@ footer {
 @media screen and (max-width: 980px) {
 
     section {
-        width: 75%;
+        width: 70%;
     }
 
     #about {
-        margin-left: 360px;
+        margin-left: 310px;
     }
 
     .PicThree {
@@ -287,15 +287,40 @@ footer {
 @media screen and (max-width: 768px) {
 
     #about {
-        margin-left: 205px;
+        margin-left: 150px;
+    }
+
+    .PicOne {
+        margin: 0 50px 20px 130px;
+    }
+
+    .PicTwo {
+        margin: 20px 50px 20px 130px;
+    }
+
+    .PicThree {
+        margin: 20px 50px 20px 130px;
+    }
+
+    .PicFour {
+        margin: 20px 50px 20px 130px;
+    }
+
+    .PicFive {
+        margin: 20px 50px 20px 130px;
+    }
+
+    .teamProject {
+        margin: 20px 50px 20px 130px;
     }
 
     #msg {
         width: 400px;
     }
 
-    .section {
-        margin-right: 80px;
+    section {
+        width: 67%;
+
     }
 
     #res {
@@ -330,27 +355,35 @@ footer {
         }
 
         #about {
-            margin-left: 80px;
+            margin-left: 60px;
         }
 
        .PicOne {
-           margin: 0px 0px 20px 120px;
+            margin-left: 90px;
        }
 
        .PicTwo {
-           margin: 0px 0px 20px 120px;
+           margin: 20px 0 0 90px;
        }
 
        .PicThree {
-           margin: 0px 0px 0px 120px;
+          margin: 20px 0 0 90px;
        }
 
        .PicFour {
-           margin: 20px 20px 20px 120px;
+           margin: 20px 0 0 90px;
        }
 
        .PicFive {
-           margin: 0px 20px 30px 120px;
+           margin: 20px 0 0 90px;
+       }
+
+       .teamProject {
+           margin: 20px 0 20px 90px;
+       }
+
+       #msg {
+           width: 300px;
        }
 
     }
@@ -366,6 +399,13 @@ footer {
             width:65%;
             font-size: 14px;
             
+        }
+
+        #me {
+            text-align: center;
+            width: 80%;
+            margin: 0 10px 10px 27px;
+
         }
 
         #N1 {
@@ -386,27 +426,39 @@ footer {
         }
 
        .PicOne {
-           margin: 0 0 20px 65px;
+           margin: 0 0 20px 50px;
        }
 
        .PicTwo {
-           margin: 0 0 20px 65px;
+           margin: 0 0 20px 50px;
        }
 
        .PicThree {
-           margin: 0 0 20px 65px;
+           margin: 0 0 20px 50px;
        }
 
        .PicFour {
-           margin: 0 0 20px 65px;
+           margin: 0 0 20px 50px;
        }
 
        .PicFive {
-           margin: 0 0 20px 65px;
+           margin: 0 0 20px 50px;
+       }    
+
+       .teamProject {
+           margin-left: 50px;
+       }
+
+       #name {
+           width: 250px;
+       }
+
+       #email {
+           width: 250px;
        }
 
        #msg {
-           width: 300px;
+           width: 250px;
        }
 
     }}
