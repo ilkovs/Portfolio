@@ -261,6 +261,42 @@ footer {
     margin-right: -20px;
 }
 
+@media screen and (max-width: 1024px) {
+    section {
+        width: 70%;
+    }
+
+    #about {
+        margin-left: 350px;
+    }
+
+    .PicOne {
+        margin: 0 30px 20px 80px;
+    }
+
+    .PicTwo {
+        margin: 20px 40px 20px 30px;
+    }
+
+    .PicThree {
+        margin: 0 30px 20px 80px;
+    }
+
+    .PicFour {
+        margin: 20px 40px 20px 30px;
+    }
+
+    .PicFive {
+        margin: 0 30px 20px 80px;
+    }
+
+    .teamProject {
+        margin: 20px 40px 20px 30px;
+
+    }
+
+}
+
 @media screen and (max-width: 980px) {
 
     section {
