@@ -497,4 +497,77 @@ footer {
            width: 250px;
        }
 
-    }}
+    }
+/* iPhone 6-8 portrait */
+@media screen and (max-width: 375px){
+    #N1 {
+        margin-left: -90px;
+    }
+
+    section {
+        margin-left: 60px;
+    }
+
+    #me {
+        margin-left: 20px;
+    }
+
+    #res {
+        width: 75%;
+    }
+
+    .container {
+        width: 75%;   
+    }
+
+    .PicOne {
+        height: 140px;
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    .PicTwo {
+        height: 140px;
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    .PicThree {
+        height: 140px;
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    .PicFour {
+        height: 140px;
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    .PicFive {
+        height: 140px;
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    .teamProject {
+        height: 140px;
+        width: 140px;
+        margin: 20px 20px 20px 35px;
+        
+    }
+
+    #name {
+        width: 180px;
+    }
+
+    #email {
+        width: 180px;
+    }
+
+    #msg {
+        width: 180px;
+    }
+}
+
+}
