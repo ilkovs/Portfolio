@@ -498,7 +498,16 @@ footer {
        }
 
     }
-/* iPhone 6-8 portrait */
+
+    /* iPhone 6s, 7s, 8s */
+@media screen and (max-width: 414px) {
+    #N1 {
+        
+    }
+}
+
+
+/* Samsung Galaxy S5, S6, S7*/
 @media screen and (max-width: 375px){
     #N1 {
         margin-left: -90px;
