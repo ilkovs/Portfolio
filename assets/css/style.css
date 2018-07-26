@@ -499,10 +499,62 @@ footer {
 
     }
 
-    /* iPhone 6s, 7s, 8s */
+    /* iPhone 6s Plus, 7s Plus*/
 @media screen and (max-width: 414px) {
     #N1 {
-        
+        margin-left: -70px;
+    }
+
+    section {
+        margin-left: 70px;
+    }
+
+    #me {
+        margin-left: 20px;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    #res {
+        width: 80%;
+    }
+
+    .PicOne {
+        margin-left: 20px;
+    }
+
+    .PicTwo {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .PicThree {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .PicFour {
+        margin: 20px 20px 20px 20px; 
+    }
+
+    .PicFive {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .teamProject {
+        margin: 20px 20px 20px 20px;
+    }
+
+    #name {
+        width: 210px;
+    }
+
+    #email {
+        width: 210px;
+    }
+
+    #msg {
+        width: 210px;
     }
 }
 
