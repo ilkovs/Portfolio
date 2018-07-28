@@ -4,14 +4,17 @@ body {
    margin: 0 20px 0 20px;
    overflow-x: hidden;
    width: 100%;
+   
 }
 
 nav {
     background-color: #ffffff;
     padding: 10px 175px 20px 128px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 1000px;
+    width: 100%;
     margin-left: -20px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -22,7 +25,7 @@ a {
 #N1 {
     background-color: #4aaaa5;
     padding: 10px 10px 21px 10px;
-    margin-left: 22px;
+    margin-left: -210px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -44,8 +47,9 @@ a {
 section {
     background-color: #ffffff;
     width: 960px;
-    margin: 20px 30px 140px 130px;
+    margin: 20px auto;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
